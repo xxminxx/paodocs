@@ -1,0 +1,426 @@
+body {
+	background-color: #eaedf1;
+	font-family: Segoe UI;
+	font-size: 14px;
+	overflow: hidden;
+}
+
+#background {
+	position: fixed;
+	bottom: 0;
+	left: 20%;
+}
+
+.btn-sign-in-confirm {
+	color:#ffffff;
+	width: 100%;
+	font-size:16px;
+	border: 1px solid #f7a22f;
+	border-radius: 2px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	padding-left: 19x;
+	padding-right: 17px;
+	background-color:#f7a22f;
+	outline-color: transparent;
+	cursor: pointer;
+}
+
+.btn-sign-in-confirm:hover {
+	color:#ffffff;
+	background-color: #f9aa33;
+}
+
+.btn-sign-in-cancel {
+	color:#ffffff;
+	width: 100%;
+	font-size:16px;
+	border: 1px solid #d5d5d5;
+	border-radius: 2px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	padding-left: 16px;
+	padding-right: 17px;
+	background-color:#d5d5d5;
+	outline-color: transparent;
+	cursor: pointer;
+}
+
+.btn-sign-in-cancel:hover {
+	color:#ffffff;
+	background-color:#7e7e7e;
+}
+
+.btn-subcontent-confirm {
+	color:#ffffff;
+	width: 20%;
+	font-size:14px;
+	font-weight: bold;
+	border: 1px solid #5780ad;
+	padding: 10px 14px;
+	background-color:#5780ad;
+	outline-color: transparent;
+	cursor: pointer;
+}
+
+.btn-subcontent-confirm:hover {
+	background-color: #426284;
+}
+
+.btn-subcontent-cancel {
+	color:#ffffff;
+	width: 20%;
+	font-size:14px;
+	font-weight: bold;
+	border: 1px solid #d5d5d5;
+	padding: 10px 14px;
+	background-color:#d5d5d5;
+	outline-color: transparent;
+	cursor: pointer;
+}
+
+.btn-subcontent-cancel:hover {
+	background-color: #7e7e7e;
+}
+
+.btn-reset-password {
+	color:#ffffff;
+	width: 100%;
+	font-size:16px;
+	border: 1px solid #6ddaee;
+	border-radius: 2px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	padding-left: 19x;
+	padding-right: 17px;
+	background-color:#6ddaee;
+	outline-color: transparent;
+	cursor: pointer;
+}
+
+.btn-reset-password:hover {
+	color:#ffffff;
+	background-color: #1cc6e9;
+}
+
+.errormsg {
+	color: red;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#container {
+	background-color: white; 
+	color: #8d8d8d;
+	position: relative;
+	width:450px;
+	margin:auto;
+	padding: 4%;
+	box-shadow: 10px 10px 5px #ccc;
+}
+
+.image-display {
+	position: fixed;
+	margin:auto;
+	top: 10%;
+	left: 35%;
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.modal-header, .close {
+      color: #8d8d8d !important;
+      text-align: center;
+      font-size: 19px;
+	  font-weight: bold;
+	  padding:10px 20px;
+	  outline-color: transparent;
+}
+
+.modal-body {
+	padding:10px 20px;
+}
+
+.modal-footer {
+    background-color: #f9f9f9;
+}
+
+h3.header {
+	font-family: Debussy;
+	margin-left: 1%;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	font-size: 10px;
+}
+
+select {
+	margin:0;
+	font:inherit;
+	color:inherit;
+	background:#fff!important;
+	padding: 12px 20px;
+	margin: 7px 0;
+	box-sizing: border-box;
+	border: 1px solid #eaedf1;
+	border-radius: 2px;
+	text-transform:none;
+}
+
+input[type=text] {
+	width: 100%;
+	color: black;
+	padding: 12px 20px;
+	margin: 7px 0;
+	box-sizing: border-box;
+	border: 1px solid #eaedf1;
+	border-radius: 2px;
+}
+
+input[type=password] {
+	width: 100%;
+	color: black;
+	padding: 12px 20px;
+	margin: 7px 0;
+	box-sizing: border-box;
+	border: 1px solid #eaedf1;
+	border-radius: 2px;
+}
+
+input[type=submit] {
+	background-color: #f7a22f;
+	border: none;
+	width: 100%;
+	color: white;
+	font-size: 16px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-decoration: none;
+	margin: 4px;
+	cursor: pointer;
+}
+
+input[type=file] {
+	width: 100%;
+	color: black;
+	padding: 12px 20px;
+	margin: 7px 0;
+	box-sizing: border-box;
+	border: 1px solid #eaedf1;
+	border-radius: 2px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {color: #1fbba6;}
+a:visited {color: #129281;}
+a:active {color: #55d4eb;}
+a:hover {color: #4689d2;}
+a:focus {color: #4689d2;}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #ccc;
+    color: #fff;
+    text-align: center;
+    border-radius: 0;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+	margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent #ccc;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.dropbtn {
+    background-color: #5780ad;
+    color: white;
+    padding: 10px 14px;
+    font-size: 14px;
+	font-weight:bold;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #426284;
+}
+
+.btn-submenu {
+	color: #5780ad;
+	background-color: white;
+	border: 1px solid white;
+	font-size: 17px;
+	padding: 7px 10px;
+	margin: 0;
+}
+
+.btn-submenu:focus {
+	background-color: #5780ad;
+	color: white;
+	border: 1px solid #5780ad;
+	font-weight: bold;
+}
+
+.image-cropper {
+    max-width: 100px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+.rounded {
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background-size:cover;
+}
+
+.image-cropper{max-width:100px;height:auto;position:relative;overflow:hidden;} 
+.rounded{display:block;margin:0 auto;height:100px;width:100px;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;-o-border-radius:50%;border-radius:50%;background-size:cover;}
+.circular-square {border-radius: 50%;}
+.circular-landscape {display: inline-block; position: relative; width: 200px; height: 200px; overflow: hidden; border-radius: 50%;} 
+.circular-landscape img { width: auto; height: 100%; margin-left: -50px;}
+.circular-portrait { position: relative; width: 200px; height: 200px; overflow: hidden; border-radius: 50%;} 
+.circular--portrait img { width: 100%; height: auto;}
+
+label > input{ /* HIDE RADIO */
+			  visibility: hidden; /* Makes input not-clickable */
+			  position: absolute; /* Remove input from document flow */
+			}
+label > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  border:3px solid #9ADEA2;
+}
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #1fbba6;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+
+@font-face {
+	font-family: Debussy;
+	src: url(fonts/debussy.ttf) format("truetype");
+}
