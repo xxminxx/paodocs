@@ -1,0 +1,92 @@
+body {
+	background-color: #eaedf1;
+	font-family: Segoe UI;
+	font-size: 14px;
+}
+
+#background {
+	position: fixed;
+	bottom: 0;
+	left: 20%;
+}
+
+#container {
+	background-color: white; 
+	position: relative;
+	width:1200px;
+	margin:auto;
+	padding: 2% 9% 2% 9%;
+	opacity: 1;
+}
+
+input[type=text] {
+	opacity:100%;
+	color: black;
+	background-color: white;
+	font-size: 15px;
+	padding: 12px 20px;
+	margin: 7px 0;
+	box-sizing: border-box;
+	border: 2px solid #eaedf1;
+	border-radius: 2px;
+		
+}
+
+input.name  {
+	width: 43%;
+}
+
+input.mi {
+	width: 13%;
+}
+
+input.email {
+	width: 37%;
+}
+
+input.cno {
+	width: 29%;
+}
+
+input.address {
+	width: 100%;
+}
+
+input[type=password] {
+	color: black;
+	background-color: white;
+	font-size: 15px;
+	padding: 12px 20px;
+	margin: 7px 0;
+	box-sizing: border-box;
+	border: 2px solid #eaedf1;
+	border-radius: 2px;
+}
+
+select, option {
+	background: url(image/arrow.PNG) no-repeat right #eaedf1;
+	font-family: Segoe UI;
+	font-size: 14px;
+	width: 30%;
+	outline: none;
+	overflow: hidden;
+	padding: 6px 9px;
+	line-height: 2;
+	border: 2px solid #eaedf1;
+	border-radius: 2px;
+	-webkit-appearance: none;
+	cursor: pointer:
+}
+
+select:active, select:hover {
+	outline-color: #eaedf1;
+}
+
+.modal-header, .close {
+      color: #8d8d8d !important;
+      text-align: center;
+      font-size: 19px;
+	  font-weight: bold;
+	  padding:10px 20px;
+	  outline-color: transparent;
+}
